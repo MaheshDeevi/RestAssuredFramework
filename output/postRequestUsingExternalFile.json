@@ -1,0 +1,18 @@
+{
+    "id": "371",
+    "first_name": "wallace",
+    "last_name": "klocko",
+    "email": "mahesh@gmail.com",
+    "jobs": [
+        "tester",
+        "trainer"
+    ],
+    "favFoods": {
+        "breakfast": "idly",
+        "lunch": "rice",
+        "dinner": [
+            "chapathi",
+            "milk"
+        ]
+    }
+}

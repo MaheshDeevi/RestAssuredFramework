@@ -1,0 +1,12 @@
+{
+  "id": "number",
+  "first_name": "fname",
+  "last_name": "lname",
+  "email": "mahesh@gmail.com",
+  "jobs": ["tester","trainer"],
+  "favFoods": {
+    "breakfast": "idly",
+    "lunch": "rice",
+    "dinner": ["chapathi","milk"]
+  }
+}

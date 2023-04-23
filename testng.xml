@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.listeners.TestListner"></listener>
+    </listeners>
+    <test parallel="methods" thread-count="4" name="C:/Users/mdeevi/IdeaProjects/RestAssuredFramework">
+        <classes>
+            <class name="com.tests.GetTests">
+                <methods>
+                    <include name="getEmployeesDetails" />
+                    <include name="getEmployeeDetails" />
+                </methods>
+            </class>
+            <class name="com.tests.PostTests">
+                <methods>
+                    <include name="postCallTest" />
+                    <include name="postRequestUsingExternalFile" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
